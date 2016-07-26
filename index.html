@@ -499,22 +499,17 @@
 
             <div class="container-fluid">
 
-                <div class="col-md-6 col-sm-12 col-xs-12 fCopy">
-                Copyright © <span>Mini</span> 2016. All rights reserved.
-                </div>
-
                 <div class="col-md-6 col-sm-12 col-xs-12 fIcons">
-                <a href="#">
-                <span aria-hidden="true" class="social_facebook_circle"></span>
+                <a href="https://twitter.com/fabiusbr" target="_blank">
+                <span aria-hidden="true" class="fa fa-twitter fa-lg"></span>
                 </a>
-                <a href="#">
-                <span aria-hidden="true" class="social_twitter_circle"></span>
+                <a href="https://www.linkedin.com/in/fabio-camatti-8942a915" target="_blank">
+                <span aria-hidden="true" class="fa fa-linkedin fa-lg"></span>
                 </a>
-                <a href="#">
-                <span aria-hidden="true" class="social_dribbble_circle"></span>
-                </a>
-                <a href="#">
-                <span aria-hidden="true" class="social_instagram_circle"></span>
+                <a href="#" target="_blank">
+                <span aria-hidden="true" class="fa fa-github fa-lg"></span>
+                <!-- <i class="fa fa-github" aria-hidden="true"></i> -->
+                <!-- <span aria-hidden="true" class="social_instagram_circle"></span> -->
                 </a>
                 </div>
 
@@ -590,7 +585,7 @@ $('.imageIntro').parallax({ "coeff":+0.4 });
                     zoom: 11,
 
                     // The latitude and longitude to center the map (always required)
-                    center: new google.maps.LatLng(40.6700, -73.9400), // New York
+                    center: new google.maps.LatLng(-33.8651, 151.2099), // Sydney, Australia
 
                     // How you would like to style the map.
                     // This is where you would paste any style found on Snazzy Maps.
@@ -606,7 +601,7 @@ $('.imageIntro').parallax({ "coeff":+0.4 });
 
                 // Let's also add a marker while we're at it
                 var marker = new google.maps.Marker({
-                    position: new google.maps.LatLng(40.6700, -73.9400),
+                    position: new google.maps.LatLng(-33.8651, 151.2099),
                     map: map,
                     title: 'Snazzy!'
                 });
