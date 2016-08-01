@@ -1,6 +1,6 @@
 #fabio a span{
   	font-weight: 400;
-  	font-size: 16px;
+  	font-size: 14px;
   	letter-spacing: 0.09em;
   	text-decoration: none;
   	z-index: 999;
@@ -27,4 +27,24 @@
 #fabioDesc{
   text-indent: 27px;
   text-align: justify;
+}
+h5#modal-box{
+  text-align: center;
+}
+#modal-box a{
+  color: #000;
+}
+#modal-box a:hover{
+  color: #ffd504;
+}
+#modal-box a:active{
+  color: #ffd504;
+}
+#tooltip + .tooltip > .tooltip-inner {
+  background-color: #ffd504;
+  color: #000;
+  font-weight: bolder;
+}
+#tooltip + .tooltip > .tooltip-arrow {
+  border-left-color:#ffd504;
 }
