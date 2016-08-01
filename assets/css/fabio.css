@@ -1,0 +1,30 @@
+#fabio a span{
+  	font-weight: 400;
+  	font-size: 16px;
+  	letter-spacing: 0.09em;
+  	text-decoration: none;
+  	z-index: 999;
+  	line-height: 55px;
+  	padding-bottom: 3px;
+  	-webkit-transition: 0.3s;
+  	-moz-transition: 0.3s;
+  	transition: 0.3s;
+  	font-family: "Poppins", sans-serif;
+  	text-transform: uppercase;
+  	color: #fff;
+  	border:1px solid transparent;
+}
+#fabio a:hover span{
+	color: #ffd504;
+}
+#fabio a:active span{
+	color: #ffd504;
+}
+#fabio-toggle {
+	font-size: 30px;
+	cursor: pointer;
+}
+#fabioDesc{
+  text-indent: 27px;
+  text-align: justify;
+}
