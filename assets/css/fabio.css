@@ -48,3 +48,9 @@ h5#modal-box{
 #tooltip + .tooltip > .tooltip-arrow {
   border-left-color:#ffd504;
 }
+a#mario{
+  color: #000;
+}
+a#mario:hover{
+  color: #ffd504;
+}
